@@ -9,22 +9,29 @@ body{
     font-family: "PT Sans", sans-serif;
 }
 .barranav{
-    background-color: aquamarine;
+    height: 7.5vh;
+    background-color: rgb(181, 189, 144);
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
- .navegar a{
+.navegar a{
     text-decoration: none;
     color: black;
-    width: 100px;
-    margin: 10px;
-    line-height: 75px;
-    font-size: 30px;
+    width: 5.208vw;
+    margin: 20px;
+    font-size: 3vmin;
+
+ }
+
+ .navegar a:hover{
+    color: rgb(219, 200, 200);
 
  }
 
 .articles{
+    font-size: 2.2vmin;
     justify-content: center;
     text-align: center;
     display: flex;
@@ -34,6 +41,7 @@ body{
 
 
 .articless {
+    font-size: 2vmin;
     text-align: center;
     
 }
@@ -47,4 +55,5 @@ body{
     height: auto;
     margin: 40px;
 }
+
 

@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -15,44 +16,48 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
 }
 .navegar a{
     text-decoration: none;
     color: black;
     width: 5.208vw;
     margin: 20px;
-    font-size: 3vmin;
-
+    font-size: 25px;
  }
 
  .navegar a:hover{
-    color: rgb(219, 200, 200);
+    color: rgb(219, 212, 212);
 
  }
 
-.articles{
-    font-size: 2.2vmin;
-    justify-content: center;
-    text-align: center;
+
+
+.articless{
     display: flex;
-    flex-direction: column;
-}
-
-
-
-.articless {
-    font-size: 2vmin;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
-    
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.articless div{
+    margin: 2%;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+.articles{
+    text-align: center;
 }
 
 
 
-.articless img {
+img {
     border: 2px solid rgb(228, 201, 201);
     border-radius: 5px;
-    width: 20%;
-    height: auto;
+    width: 20vw;
     margin: 40px;
 }
 
